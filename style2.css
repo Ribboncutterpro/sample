@@ -1,0 +1,1277 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family:  sans-serif;
+  background-color: rgb(231, 237, 249);
+  
+}
+#Navbar {
+  background-color: rgb(254, 251, 254);
+  color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;  
+  margin: 20px 210px; /* Space on the left and right */
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Floating shadow effect */
+  padding: 0 20px;
+  max-width: 1200px; /* Maximum width of the navbar */
+ position: fixed;
+ z-index: 5;
+}
+
+#Navbar img {
+  height: 65px;
+
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; 
+  font-style: normal;
+  color: #707172;
+  font-size: 25px;
+ margin-right: 300px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #f44804;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+margin-right: 10px;
+}
+
+.login-button:hover {
+  background-color: #f44804;
+}
+
+.signin-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #f44804; /* Blue font color */
+  background-color: transparent; /* No background color */
+  border: 2px solid #f44804; /* Blue border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+ 
+}
+
+.signin-button:hover {
+  background-color: #e9edee; /* Change background on hover */
+  /* color: white;  Change text color on hover  */
+}
+h4 {
+  margin: 0;
+  padding-left: 10px;
+}
+
+#droppp{
+  margin-right: 150px;
+  
+}
+/* Dropdown Button Styling */
+.dropbtn {
+  background-color:white;  /* Same as parent background for seamless look */
+  color: #333;
+  font-size: 18px;  /* Slightly smaller for a compact look */
+  padding: 8px 12px;  /* Reduced padding */
+  cursor: pointer;
+  border: none;  /* No border to avoid visible edges */
+  border-radius: 4px;
+  box-shadow: none;  /* Remove box shadow to keep it flat */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  line-height: 1.2;
+}
+
+.dropbtn:hover {
+  background-color: rgb(224, 215, 215);  /* Hover effect for button */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  /* Minimal shadow on hover */
+}
+
+/* Dropdown Content Styling */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;  /* Adjusted padding */
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown Item Styling */
+.dropdown-content a {
+  color: black;
+  padding: 6px 14px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f5f5f5;
+}
+
+.all-locations {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-title {
+  font-weight: bold;
+  color: #2b2a2a;
+  padding: 10px 16px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+/* For Chevron Animation */
+.dropbtn i {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropbtn i {
+  transform: rotate(180deg);  /* Chevron rotation animation */
+}
+
+.hero-image {
+  position: relative;
+  height: 80vh; /* Full viewport height */
+  background-size: cover; /* Cover the entire element */
+  background-position: center; /* Center the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image h1
+{
+  font-size: 48px;
+  color: rgb(33, 56, 86);
+  font-weight: 700;
+  margin-left: 70px;
+}
+.hero-image p{
+  font-size: 24px;
+  color: rgb(86, 111, 143);
+  font-weight: 400;
+}
+.help
+{
+  color: #f44804;
+}
+
+#houses {
+  height: auto; /* Let the content determine the height */
+  background-color: rgb(231, 237, 249);
+  padding: 20px;
+  display: flex;
+  margin-top: 30px;
+}
+
+
+/* Flex container to align the image and text side by side */
+#houses1 img {
+  height: 450px;
+  width: 400px; /* Include units for width */
+  border-radius: 2%;
+  /* margin-right: 80px; Space between image and text */
+}
+
+/* Flex container to align the GIF and text side by side */
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between GIF and text */
+}
+
+/* Styling for the text content */
+.text-content {
+  color: black;
+  margin-left: 280px; /* Add spacing between GIF and text */
+  width: 40%; /* Adjust the width of the text area */
+  margin-top: 80px;
+  background-color: #f8fbfb;
+  border-radius: 15px;
+}
+
+.text-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px; 
+  color: #5F6368;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.share{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color:#f44804;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5F6368;
+  margin-left: 10px;
+}
+
+#pdimg {
+  height: 450px;
+  width: 400; /* Example value, change as needed */
+  border-radius: 2%;
+  margin-left: 150px;
+  display: flex;
+}
+
+#houses2 {
+  height: auto; /* Let the content determine the height */
+  background-color: #f44804;
+  padding: 20px;
+  display: flex;
+  margin-top: 30px;
+  align-items: center; /* Center items vertically */
+}
+
+
+.my-player{
+  margin-left: 100px;
+  border-radius: 20px;
+  
+}
+
+.my-player2{
+  margin-left: 150px;
+  border-radius: 20px;
+  
+}
+.text1-content {
+  color: black;
+  width: 700px;
+  height: 550px; /* Adjust the width of the text area */
+  margin-left: 150px;
+  background-color: #e9edee;
+  margin-right: 300px;
+  border-radius: 15px;
+  font-size: 20px;
+
+}
+
+.text1-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #5F6368;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 80px; 
+}
+
+#pdimg2 {
+  height: 450px;
+  width: 400; /* Example value, change as needed */
+  border-radius: 2%;
+  /* margin-right: 150px; */
+  display: flex;
+}
+.text1-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5F6368;
+  margin-left: 30px;
+}
+
+/* Wrapper for the testimonials */
+.testimonial-wrapper {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  background-color: #f44804;
+}
+
+/* Testimonial track to hold all testimonials */
+.testimonial-track {
+  display: flex;
+  width: max-content;
+  animation: slideLeft 20s linear infinite;
+  animation-play-state: running;  /* Animation starts in running state */
+
+}
+
+.testimonial {
+  width: 600px; /* Set fixed width */
+  height: 350px; /* Set fixed height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  background-color: #f3f3f3; /* Background color */
+  border-radius: 20px; /* Curved edges */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 15px; /* Add some padding */
+  margin: 10px; /* Margin between testimonials */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Testimonial text styling */
+.testimonial-text {
+  flex: 1;
+  text-align: left;
+  max-width: 600px; /* Set a max width for the review */
+  margin: 20px auto; /* Center the review block */
+  padding: 15px; /* Add some padding */
+  background-color: #f3f3f3; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  line-height: 1.5; /* Adjust line height for readability */
+  overflow-wrap: break-word; /* Ensures long words wrap */
+}
+
+/* Testimonial image styling */
+.testimonial-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+/* Keyframes for infinite sliding */
+@keyframes slideLeft {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+/* Pause the animation when hovering over the track */
+.testimonial-track:hover {
+  animation-play-state: paused;
+}
+
+#test{
+  font-size: 48px;
+  color: rgb(249, 249, 249);
+  font-weight: 700;
+margin-left: 40%;
+}
+
+
+
+.footer{
+	background: #fdfeff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+  color:#0a0a0a!important;
+  height: 420px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer .footer-left{
+	width: 40%;
+}
+
+
+.footer h3{
+	color:  #080808;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer h3 span{
+	color:  teal;
+}
+
+/* Footer links */
+
+.footer .footer-links{
+	color:  #0e0e0e;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer .footer-name{
+  color: teal;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer .footer-center{
+	width: 35%;
+}
+
+.footer .footer-center i{
+	background-color:  #33383b;
+	color: #edebeb;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer .footer-center p{
+	display: inline-block;
+	color: #151414;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer .footer-center p a{
+	color:  teal;
+	text-decoration: none;;
+}
+
+.footer .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #0c0c0c;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer .footer-right{
+	width: 20%;
+}
+
+.footer .footer-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer .footer-about span{
+	display: block;
+	color:  #0c0c0c;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer .footer-socials{
+	margin-top: 25px;
+}
+
+.footer .footer-socials a{
+	display: inline-block;
+	font-size: 35px;
+	cursor: pointer;
+	color: #040404;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.footer .logo {
+    max-width: 100px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  /* Existing CSS */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color: rgb(231, 237, 249);
+}
+
+#Navbar {
+  background-color: rgb(254, 251, 254);
+  color: black;
+  height: 70px;
+  display: flex;
+  align-items: center;  
+  margin: 20px 210px; /* Space on the left and right */
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Floating shadow effect */
+  padding: 0 20px;
+  max-width: 1200px; /* Maximum width of the navbar */
+  position: fixed;
+  z-index: 5;
+}
+
+#Navbar img {
+  height: 65px;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; 
+  font-style: normal;
+  color: #707172;
+  font-size: 25px;
+  margin-right: 300px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #f44804;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.login-button:hover {
+  background-color: #f44804;
+}
+
+.signin-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #f44804; /* Blue font color */
+  background-color: transparent; /* No background color */
+  border: 2px solid #f44804; /* Blue border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.signin-button:hover {
+  background-color: #e9edee; /* Change background on hover */
+  /* color: white;  Change text color on hover  */
+}
+
+h4 {
+  margin: 0;
+  padding-left: 10px;
+}
+
+#droppp {
+  margin-right: 150px;
+}
+
+/* Dropdown Button Styling */
+.dropbtn {
+  background-color: white;  /* Same as parent background for seamless look */
+  color: #333;
+  font-size: 18px;  /* Slightly smaller for a compact look */
+  padding: 8px 12px;  /* Reduced padding */
+  cursor: pointer;
+  border: none;  /* No border to avoid visible edges */
+  border-radius: 4px;
+  box-shadow: none;  /* Remove box shadow to keep it flat */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  line-height: 1.2;
+}
+
+.dropbtn:hover {
+  background-color: rgb(224, 215, 215);  /* Hover effect for button */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  /* Minimal shadow on hover */
+}
+
+/* Dropdown Content Styling */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;  /* Adjusted padding */
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown Item Styling */
+.dropdown-content a {
+  color: black;
+  padding: 6px 14px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f5f5f5;
+}
+
+.all-locations {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-title {
+  font-weight: bold;
+  color: #2b2a2a;
+  padding: 10px 16px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+/* For Chevron Animation */
+.dropbtn i {
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover .dropbtn i {
+  transform: rotate(180deg);  /* Chevron rotation animation */
+}
+
+.hero-image {
+  position: relative;
+  height: 80vh; /* Full viewport height */
+  background-size: cover; /* Cover the entire element */
+  background-position: center; /* Center the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image h1 {
+  font-size: 48px;
+  color: rgb(33, 56, 86);
+  font-weight: 700;
+  margin-left: 70px;
+}
+
+.hero-image p {
+  font-size: 24px;
+  color: rgb(86, 111, 143);
+  font-weight: 400;
+}
+
+.help {
+  color: #f44804;
+}
+
+#houses {
+  height: auto; /* Let the content determine the height */
+  background-color: rgb(231, 237, 249);
+  padding: 20px;
+  display: flex;
+  margin-top: 30px;
+}
+
+/* Flex container to align the image and text side by side */
+#houses1 img {
+  height: 450px;
+  width: 400px; /* Include units for width */
+  border-radius: 2%;
+  /* margin-right: 80px; Space between image and text */
+}
+
+/* Flex container to align the GIF and text side by side */
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between GIF and text */
+}
+
+/* Styling for the text content */
+.text-content {
+  color: black;
+  margin-left: 280px; /* Add spacing between GIF and text */
+  width: 40%; /* Adjust the width of the text area */
+  margin-top: 80px;
+  background-color: #f8fbfb;
+  border-radius: 15px;
+}
+
+.text-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px; 
+  color: #5F6368;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.share {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #f44804;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5F6368;
+  margin-left: 10px;
+}
+
+#pdimg {
+  height: 450px;
+  width: 400px; /* Example value, change as needed */
+  border-radius: 2%;
+  margin-left: 150px;
+  display: flex;
+}
+
+#houses2 {
+  height: auto; /* Let the content determine the height */
+  background-color: #f44804;
+  padding: 20px;
+  display: flex;
+  margin-top: 30px;
+  align-items: center; /* Center items vertically */
+}
+
+.my-player {
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.my-player2 {
+  margin-left: 150px;
+  border-radius: 20px;
+}
+
+.text1-content {
+  color: black;
+  width: 700px;
+  height: 550px; /* Adjust the width of the text area */
+  margin-left: 150px;
+  background-color: #e9edee;
+  margin-right: 300px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.text1-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #5F6368;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 80px; 
+}
+
+#pdimg2 {
+  height: 450px;
+  width: 400px; /* Example value, change as needed */
+  border-radius: 2%;
+  /* margin-right: 150px; */
+  display: flex;
+}
+
+.text1-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5F6368;
+  margin-left: 30px;
+}
+
+/* Wrapper for the testimonials */
+.testimonial-wrapper {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  background-color: #f44804;
+}
+
+/* Testimonial track to hold all testimonials */
+.testimonial-track {
+  display: flex;
+  width: max-content;
+  animation: slideLeft 20s linear infinite;
+  animation-play-state: running;  /* Animation starts in running state */
+}
+
+.testimonial {
+  width: 600px; /* Set fixed width */
+  height: 350px; /* Set fixed height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  background-color: #f3f3f3; /* Background color */
+  border-radius: 20px; /* Curved edges */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 15px; /* Add some padding */
+  margin: 10px; /* Margin between testimonials */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Testimonial text styling */
+.testimonial-text {
+  flex: 1;
+  text-align: left;
+  max-width: 600px; /* Set a max width for the review */
+  margin: 20px auto; /* Center the review block */
+  padding: 15px; /* Add some padding */
+  background-color: #f3f3f3; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  line-height: 1.5; /* Adjust line height for readability */
+  overflow-wrap: break-word; /* Ensures long words wrap */
+}
+
+/* Testimonial image styling */
+.testimonial-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+/* Keyframes for infinite sliding */
+@keyframes slideLeft {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+/* Pause the animation when hovering over the track */
+.testimonial-track:hover {
+  animation-play-state: paused;
+}
+
+#test {
+  font-size: 48px;
+  color: rgb(249, 249, 249);
+  font-weight: 700;
+  margin-left: 40%;
+}
+
+/* Footer Styles */
+.footer {
+  background: #fdfeff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  color: #0a0a0a !important;
+  height: 420px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+.footer .footer-left {
+  width: 40%;
+}
+
+.footer h3 {
+  color: #080808;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer h3 span {
+  color: teal;
+}
+
+/* Footer links */
+.footer .footer-links {
+  color: #0e0e0e;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .footer-name {
+  color: teal;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+.footer .footer-center {
+  width: 35%;
+}
+
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #edebeb;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #151414;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: teal;
+  text-decoration: none;
+}
+
+.footer .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #0c0c0c;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+.footer .footer-right {
+  width: 20%;
+}
+
+.footer .footer-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .footer-about span {
+  display: block;
+  color: #0c0c0c;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .footer-socials {
+  margin-top: 25px;
+}
+
+.footer .footer-socials a {
+  display: inline-block;
+  font-size: 35px;
+  cursor: pointer;
+  color: #040404;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.footer .logo {
+  max-width: 100px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; 
+  margin-bottom: 15px;
+}
+
+/* Media Query for Small Screens (Max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  /* Adjust Navbar */
+  #Navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 10px 20px;
+      height: auto;
+  }
+
+  /* Adjust Navbar Logo and Title */
+  #Navbar img {
+      height: 50px;
+  }
+
+  .poppins-thin {
+      font-size: 20px;
+      margin-right: 0;
+      margin-top: 10px;
+  }
+
+  /* Adjust Dropdowns */
+  #droppp {
+      margin-right: 0;
+      width: 100%;
+  }
+
+  .dropdown {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  .dropbtn {
+      width: 100%;
+      text-align: left;
+  }
+
+  /* Adjust Buttons */
+  #button {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .login-button,
+  .signin-button {
+      width: 100%;
+      margin: 5px 0;
+  }
+
+  /* Adjust Hero Image Text */
+  .hero-image h1 {
+      font-size: 32px;
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .hero-image p {
+      font-size: 18px;
+      text-align: center;
+  }
+
+  /* Adjust Houses Sections */
+  #houses, #houses2 {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+  }
+
+  /* Additional Adjustments for 600px Width */
+  
+  /* Adjust Text Content Width */
+  .text-content, .text1-content {
+      width: 90%; /* Increased to utilize more space on slightly larger screens */
+      margin: 20px 0;
+  }
+
+  /* Adjust Images */
+  #pdimg, #pdimg2 {
+      width: 90%; /* Make images responsive */
+      height: auto;
+      margin-left: 0;
+  }
+
+  /* Adjust Testimonial Section */
+  .testimonial-wrapper {
+      height: auto;
+      padding: 20px 0;
+      background-color: #f44804; /* Ensure background color consistency */
+  }
+
+  .testimonial-track {
+      flex-direction: column;
+      animation: none; /* Disable sliding animation on small screens */
+  }
+
+  .testimonial {
+      width: 90%;
+      margin: 10px auto;
+  }
+
+  /* Adjust Footer */
+  .footer {
+      padding: 30px 20px;
+      height: auto;
+      text-align: center; /* Center-align footer text */
+  }
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  /* Adjust Testimonial Heading */
+  #test {
+      font-size: 36px;
+      margin-left: 0;
+  }
+
+  /* Adjust Hero Image Height if Necessary */
+  .hero-image {
+      height: auto; /* Allow height to adjust based on content */
+      padding: 20px 0;
+  }
+
+  /* Adjust Footer Bottom */
+  .footer-bottom {
+      height: auto;
+      padding: 10px;
+      margin-top: 10px;
+  }
+}
+
+/* Media Query for Tablets in Portrait Mode (Max-width: 768px and Portrait) */
+/* You can keep this separate or adjust it similarly if needed */
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  /* Add any additional styles specific to tablets in portrait mode */
+  /* For example: */
+  
+  /* Adjust Navbar */
+  #Navbar {
+      margin: 15px 30px;
+  }
+
+  .poppins-thin {
+      font-size: 22px;
+      margin-right: 150px;
+  }
+
+  /* Adjust Dropdowns */
+  #droppp {
+      margin-right: 100px;
+  }
+
+  /* Adjust Hero Image Text */
+  .hero-image h1 {
+      font-size: 40px;
+      margin-left: 50px;
+  }
+
+  .hero-image p {
+      font-size: 20px;
+  }
+
+  /* Adjust Houses Sections */
+  #houses, #houses2 {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .text-content, .text1-content {
+      width: 80%;
+      margin: 20px;
+  }
+
+  /* Adjust Testimonial Section */
+  .testimonial {
+      width: 80%;
+  }
+
+  /* Adjust Footer */
+  .footer {
+      padding: 40px 30px;
+  }
+
+  #test {
+      font-size: 40px;
+  }
+}
+
+
+
+}
