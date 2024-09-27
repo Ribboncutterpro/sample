@@ -44,7 +44,7 @@ body{
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-margin-right: 10px;
+/* margin-right: 10px; */
 }
 
 .login-button:hover {
