@@ -1212,7 +1212,11 @@ h4 {
       margin-top: 10px;
   }
 }
+@media (max-width: 1700px) {
+    .navbar-item {
+        padding: 0 10px;
+	    
+    }
+}
 
-/* Media Query for Tablets in Portrait Mode (Max-width: 768px and Portrait) */
-/* You can keep this separate or adjust it similarly if needed */
 
