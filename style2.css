@@ -1,15 +1,4 @@
-* {
-    box-sizing: border-box;
-}
-@media (min-width: 1200px) {
-    body {
-        max-width: 1200px;  /* Limit the width on large screens */
-        margin: 0 auto;     /* Center the content */
-    }
-}
-html {
-    zoom: 100%; /* Only use this if necessary */
-}
+
 
 body{
   margin:0px;
